@@ -1,0 +1,6 @@
+deepface==0.0.100
+opencv-python-headless
+pandas
+openpyxl
+flask
+tensorflow==2.13.0
