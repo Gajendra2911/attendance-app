@@ -1,4 +1,6 @@
 import os
+os.environ["DISPLAY"] = ""
+os.environ["MPLBACKEND"] = "Agg"
 os.environ["OPENCV_IO_ENABLE_OPENEXR"] = "0"
 os.environ["QT_QPA_PLATFORM"] = "offscreen"
 import cv2
