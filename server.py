@@ -1,3 +1,7 @@
+import os
+os.environ["OPENCV_IO_ENABLE_OPENEXR"] = "0"
+os.environ["QT_QPA_PLATFORM"] = "offscreen"
+import cv2
 from flask import Flask, request, jsonify, render_template_string
 from deepface import DeepFace
 from datetime import datetime
