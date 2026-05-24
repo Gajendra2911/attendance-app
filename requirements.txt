@@ -1,7 +1,7 @@
 deepface==0.0.100
-opencv-python-headless==4.8.1.78
+opencv-python-headless
 pandas
 openpyxl
 flask
-tensorflow==2.13.0
+tf-keras
 numpy<2.0
