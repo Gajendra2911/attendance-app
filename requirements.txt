@@ -3,5 +3,5 @@ opencv-python-headless
 pandas
 openpyxl
 flask
-tf-keras
-numpy<2.0
+tensorflow==2.13.0
+numpy==1.24.3
